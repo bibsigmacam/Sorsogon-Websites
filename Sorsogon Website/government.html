@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Government — Sorsogon Province</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">Sorsogon <span>Province of the Philippines</span></a>
+    <button class="nav__burger" id="burger"><span></span><span></span><span></span></button>
+    <ul class="nav__links" id="navlinks">
+      <li><a href="index.html" class="on">Home</a></li>
+      <li><a href="geography.html">Geography</a></li>
+      <li><a href="tourism.html">Tourism</a></li>
+      <li><a href="culture.html">Culture</a></li>
+      <li><a href="cuisine.html">Cuisine</a></li>
+      <li><a href="economy.html">Economy</a></li>
+      <li><a href="transportation.html">Transport</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="government.html">Government</a></li>
+      <li><a href="hotels.html">Hotels</a></li>
+      <li><a href="souvenirs.html">Souvenirs</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="banner">
+  <div class="banner__inner">
+    <p class="banner__crumb"><a href="index.html">Home</a> / Government</p>
+    <h4>Administration & Public Service</h4>
+    <h1>Government</h1>
+  </div>
+</div>
+
+<main>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="split">
+        <div class="split__text">
+          <h4>Administration</h4>
+          <h2>Provincial government</h2>
+          <p>Sorsogon is governed by an elected <strong>Governor</strong> and Vice-Governor, supported by a Sangguniang Panlalawigan (Provincial Board). The provincial government is headquartered in Sorsogon City.</p>
+          <p>The province belongs to <strong>Region V (Bicol Region)</strong> under the national government's administrative structure. Locally, 16 cities and municipalities each have their own elected mayor, vice-mayor, and council managing local services and ordinances.</p>
+        </div>
+        <div class="split__img"><img src="images/30.png" alt="Government"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--sand">
+    <div class="wrap">
+      <div class="sh"><h4>Divisions</h4><h2>Cities & municipalities</h2></div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>City / Municipality</th><th>Type</th><th>Population (approx.)</th><th>District</th></tr></thead>
+          <tbody>
+            <tr><td>Sorsogon City</td><td>Component City (Capital)</td><td>180,000</td><td>2nd District</td></tr>
+            <tr><td>Irosin</td><td>Municipality</td><td>60,000</td><td>2nd District</td></tr>
+            <tr><td>Donsol</td><td>Municipality</td><td>55,000</td><td>1st District</td></tr>
+            <tr><td>Gubat</td><td>Municipality</td><td>72,000</td><td>2nd District</td></tr>
+            <tr><td>Matnog</td><td>Municipality</td><td>50,000</td><td>2nd District</td></tr>
+            <tr><td>Bulusan</td><td>Municipality</td><td>40,000</td><td>2nd District</td></tr>
+            <tr><td>Barcelona</td><td>Municipality</td><td>38,000</td><td>1st District</td></tr>
+            <tr><td>Castilla</td><td>Municipality</td><td>44,000</td><td>1st District</td></tr>
+            <tr><td>Juban</td><td>Municipality</td><td>52,000</td><td>1st District</td></tr>
+            <tr><td>Pilar</td><td>Municipality</td><td>36,000</td><td>1st District</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout" style="margin-top:24px;">
+        <h4>Congressional Districts</h4>
+        <p>Sorsogon is divided into two congressional districts. The 1st District covers northern and western municipalities; the 2nd District covers southern and eastern municipalities including Sorsogon City.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">Sorsogon <span>Province of the Philippines</span></a>
+        <p>The southernmost province of Luzon — where the sea, the volcano, and the people create something unforgettable.</p>
+      </div>
+      <div class="footer__col"><h4>Nature</h4><ul>
+        <li><a href="beaches.html">Beaches</a></li>
+        <li><a href="whale-sharks.html">Whale Sharks</a></li>
+        <li><a href="mountains.html">Mountains</a></li>
+        <li><a href="lakes.html">Lakes</a></li>
+        <li><a href="wildlife.html">Wildlife</a></li>
+      </ul></div>
+      <div class="footer__col"><h4>Culture</h4><ul>
+        <li><a href="history.html">History</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="festivals.html">Festivals</a></li>
+        <li><a href="cuisine.html">Cuisine</a></li>
+        <li><a href="churches.html">Churches</a></li>
+      </ul></div>
+      <div class="footer__col"><h4>Travel</h4><ul>
+        <li><a href="tourism.html">Tourism</a></li>
+        <li><a href="hotels.html">Hotels</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="transportation.html">Transport</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Sorsogon Province. All rights reserved.</span>
+      <span>Bicol Region · Philippines</span>
+    </div>
+  </div>
+</footer>
+<script>
+  const b = document.getElementById('burger');
+  const n = document.getElementById('navlinks');
+  b.addEventListener('click', () => n.classList.toggle('open'));
+</script>
+</body>
+</html>
